@@ -54,6 +54,7 @@ colnames(total_X) <- var_names[select_var[,1],2]
 colnames(total_Sub) <- "subject"
 total <- cbind(total_X, activitylabel, total_Sub)
 total_mean <- total %>% group_by(activitylabel, subject) %>% summarize_each(funs(mean))
+
 #Upload tidydata file with the final tidy data
 write.table(total_mean, file = "UCI HAR Dataset/tidydata.txt", row.names = FALSE, col.names = TRUE)
 
