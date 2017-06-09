@@ -1,11 +1,11 @@
 # Resulting data fields in tidydata.txt.
 
-##Identifiers
+## Identifiers
 
 *"activitylabel" - The type of activity performed when the corresponding measurements were taken
 *"subject"" - The ID of the test subject
 
-##Measurement
+## Measurement
 
 * "tBodyAcc-mean()-X"
 * "tBodyAcc-mean()-Y"
@@ -74,7 +74,7 @@
 * "fBodyBodyGyroJerkMag-mean()"
 * "fBodyBodyGyroJerkMag-std()"
 
-##Activity Labels
+## Activity Labels
 
 1. "WALKING" (value 1): subject was walking during the test
 2. "WALKING_UPSTAIRS" (value 2): subject was walking up a staircase during the test
